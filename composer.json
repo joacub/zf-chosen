@@ -1,0 +1,26 @@
+{
+    "name": "joacub/zf-chosen",
+    "description": "Extra ZF2 library.",
+    "type": "library",
+    "keywords": [
+        "zf2 library", "Zf chosen", "zf2"
+    ],
+    "authors": [
+        {
+            "name": "Johan",
+            "email": "joacub@gmail.com"
+        }
+    ],
+    "require": {
+        "zendframework/zendframework": "2.*",
+        "rwoverdijk/assetmanager": ">=1.2.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZfChosen\\": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
